@@ -96,7 +96,7 @@ if (cantidad_buzos > 0) {
 let cantidad_total =
     (cantidad_remeras * precio_total_remeras +
         cantidad_bermudas * precio_total_bermudas + cantidad_pantalones * precio_total_pantalones +
-        cantidad_buzos * precio_total_buzos) + envio;
+        cantidad_buzos * precio_total_buzos);
 
 if (cantidad_total != NaN) {
     console.log("Gastaste en total $", cantidad_total);
