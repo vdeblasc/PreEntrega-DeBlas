@@ -1,18 +1,358 @@
-
-body{
-    background-color: blueviolet;
+* {
+    margin: 0;
+    padding: 0;
 }
 
-h1{
-    text-align: center;
+
+.presentacion {
+    background-image: url(../images/bg.jpg);
+    height: 100px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+.presentacion div {
+    padding-top: 20px;
+    margin-top: 20px;
+    }
+.presentacion div h1 {
     color: white;
-    font-size: 50px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 45px;
 }
 
-h4{
-    text-align: center;
-    color: white;
+p {
+    font-weight: bold;
+    font-size: 30px;
+    width: 100%;
+}
+
+
+a {
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+button {
+    padding: 20px;
+    font-size: larger;
+    cursor: pointer;
+}
+
+
+input {
+    padding: 10px;
+    width: 400px;
+    border-radius: 10px;
+}
+
+
+
+h6#card_id {
+    font-size: 5px;
+}
+
+div.productos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+div.card {
+    display: block;
+    top: 0;
+    position: relative;
+    max-width: 350px;
+    background-color: white;
+    border-radius: 6px;
+    padding: 15px 10px;
+    margin: 1rem;
+    text-decoration: none;
+    z-index: 0;
+    overflow: hidden;
+    border: 1px solid white;
+}
+
+
+div.card:hover {
+    transition: all 0.2s ease-out;
+    box-shadow: 0px 4px 8px rgba(38, 38, 38, 0.2);
+    top: -4px;
+    border: 1px solid #cccccc;
+    background-color: white;
+
+}
+
+div.card::before{
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: -16px;
+    right: -16px;
+    background: #4300ae;
+    height: 20px;
+    width: 20px;
+    border-radius: 32px;
+    transform: scale(2);
+    transform-origin: 50% 50%;
+    transition: transform 0.15s ease-out;
+}
+
+div.card:hover::before{
+    transform: scale(2.15);
+}
+
+
+.categoria {
+        color: black;
+        padding: 0.2rem 0.5rem;
+        font-size: 16px;
+        border-radius: 4px;
+    }
+
+.nombre{
+    font-size: 35px;
+}
+
+.card_precio{
+    font-weight: bold;
     font-size: 25px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(89, 21, 125);
+    margin-top: 0.5rem;
+}
+
+.btn_body {
+    display: flex;
+    justify-content: center;
+    max-height: 100px;
+    text-align: center;
+    margin: 10px 50px;
+}
+
+#total_unidades {
+    text-align: center;
+    width: 50%;
+    margin: 6px;
+}
+
+.btn_agregar_carrito {
+    background-color: rgba(184, 184, 184, 0.641);
+    color: rgb(0, 0, 0);
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: bolder;
+}
+
+.btn_agregar_carrito:hover {
+    background-color: rgb(255, 255, 255);
+
+}
+
+/* CARRITO COMPRAS */
+
+
+
+
+tr {
+    display: flex;
+    width: 100%;
+}
+
+td {
+    font-size: 10px;
+    height: 100px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+td p {
+    font-size: 10px;
+}
+
+thead {
+    display: flex;
+    background-color: red;
+    justify-content: space-between;
+}
+
+.table {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.table p {
+    font-size: 20px;
+}
+
+
+/* CARRITO  */
+
+
+.carrito-total {
+    display: flex;
+    justify-content: right;
+}
+
+#carrito_compras {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 60px 20px;
+}
+
+
+.carrito_img {
+    height: 50px;
+}
+
+
+
+.carrito {
+    border: 1px solid #666;
+    width: 100%;
+    min-width: 300px;
+    margin-top: 30px;
+    overflow: hidden;
+    margin-bottom: auto;
+    top: 0;
+    transition: .3s;
+    margin-right: 0px;
+}
+
+.carrito .header-carrito {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.carrito .carrito-item {
+    display: flex;
+    align-items: center;
+    position: relative;
+    border-bottom: 1px solid #666;
+    padding: 20px;
+}
+
+
+.carrito .carrito-item .carrito-item-precio {
+    font-weight: bold;
+    display: inline-block;
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+.carrito .carrito-item .btn-eliminar {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    color: #000;
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    border: 1px solid #000;
+    cursor: pointer;
+    display: block;
+    background: transparent;
+    z-index: 20;
+}
+
+button.btn_borrar_elemento {
+    align-self: center;
+    color: white;
+    height: 50%;
+    font-size: 10px;
+    margin-right: 20px;
+}
+
+.carrito-total {
+    background-color: #ffffff;
+    padding: 30px;
+}
+
+.carrito-total .fila {
+    justify-content: space-between;
+    align-items: center;
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.carrito-total .btn-pagar {
+    display: block;
+    width: 100px;
+    background: #000;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    transition: .3s;
+    margin: 20px;
+}
+
+
+.carrito-total .btn-pagar:hover {
+    scale: 1.02;
+}
+
+.nombre_producto,
+.categoria_producto {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.prod_carrito_precio,
+.prod_carrito_unidades {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+input.input_unidades {
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+p.id_producto {
+    width: min-content;
+    color: rgb(0, 0, 0);
+}
+
+.gracias{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ninguna{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a.volver_a_la_tienda {
+    text-decoration: none;
+    font-size: 40px;
+    font-weight: bolder;
+    color: rgb(105, 28, 128);
+    text-shadow: 2px black solid;
+    box-shadow: 3px black solid;
+    text-align: center;
+
+}
+
+a.volver_a_la_tienda:hover {
+    color: rgb(0, 0, 0) ;
 }
