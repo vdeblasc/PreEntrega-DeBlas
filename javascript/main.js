@@ -104,26 +104,6 @@ getProductos().then((productos) => {
         }).showToast();
     };
 
-    //BUSCADOR
-
-    const searchInput = document.querySelector("[data-search]");
-    const card = document.getElementsByClassName("card");
-
-    searchInput.addEventListener("input", (e) => {
-
-        const value = e.target.value.toLowerCase()
-
-        for (let i = 0; i < productos.length; i++) {
-            const isVisible =
-                productos[i].categoria.toLowerCase().includes(value) ||
-                productos[i].distincion.toLowerCase().includes(value);
-            card[i].classList.toggle("hide", !isVisible)
-        }
-
-    });
-
-
-
     // AGREGAR A CARRITO O AUMENTAR VALOR INPUT DESDE AGREGAR A CARRITO
 
     function aumentar_producto__carrito(producto_carrito) {
