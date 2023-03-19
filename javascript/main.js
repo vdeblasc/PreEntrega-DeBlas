@@ -1,5 +1,5 @@
 async function getProductos() {
-    const response = await fetch("productos.json");
+    const response = await fetch("data/productos.json")
     const data = await response.json();
     return data;
 }
@@ -231,7 +231,7 @@ getProductos().then((productos) => {
             <h1 >¡GRACIAS POR SU COMPRA!</h1>
             </div>
             <div class="volver">
-            <a href="index.html" class= "volver_a_la_tienda">VOLVER A LA TIENDA</a>
+            <a href="index.html" class= "volver_a_la_tienda">ATRAS</a>
             </div>`}
         else {
 
@@ -241,7 +241,7 @@ getProductos().then((productos) => {
             <h1>¡NO HA REALIZADO NINGUNA COMPRA!</h1>
             </div>
             <div class="volver">
-            <a href="index.html" class= "volver_a_la_tienda">VOLVER A LA TIENDA</a>
+            <a href="index.html" class= "volver_a_la_tienda">ATRAS</a>
             </div>`
 
         }

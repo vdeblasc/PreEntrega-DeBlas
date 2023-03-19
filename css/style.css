@@ -303,10 +303,10 @@ button.btn_borrar_elemento {
     width: 100px;
     background: #000;
     color: #fff;
-    border-radius: 5px;
+    border-radius: 3px;
     font-size: 18px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     cursor: pointer;
     transition: .3s;
@@ -419,23 +419,15 @@ footer {
 }
 
 .footer-bottom p a {
-    color: #44bae8;
+    color: #000000;
+    padding-top: 10px;
     font-size: 16px;
     text-transform: capitalize;
 }
 
 .footer-bottom span {
+    background-color: #111;
     text-transform: uppercase;
     opacity: 0.4;
     font-weight: 200;
-}
-
-.footerRedes {
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.footerRedes img {
-    width: 60px;
-    height: 60px;
 }
