@@ -1,0 +1,352 @@
+[
+        {
+                "id": "M001",
+                "categoria": "Niños Soquetes",
+                "distincion": "Buzz Lightyear",
+                "imgSrc": "../images/niño-buzz.jpg",
+                "precio": 300
+        },
+        {
+                "id": "M002",
+                "categoria": "Niños Soquetes",
+                "distincion": "Corazones",
+                "imgSrc": "../images/niño-corazon.jpg",
+                "precio": 300
+        },
+        {
+                "id": "M003",
+                "categoria": "Niños Soquetes",
+                "distincion": "Frozen-Olaf",
+                "imgSrc": "../images/niño-frozen.jpg",
+                "precio": 300
+        },
+        {
+                "id": "M004",
+                "categoria": "Niños Soquetes",
+                "distincion": "Iron Man",
+                "imgSrc": "../images/niño-iron.jpg",
+                "precio": 300
+        },
+        {
+                "id": "M005",
+                "categoria": "Niños Soquetes",
+                "distincion": "Minions",
+                "imgSrc": "../images/niño-minion.jpg",
+                "precio": 300
+        },
+        {
+                "id": "M006",
+                "categoria": "Niños Caña",
+                "distincion": "Stitch",
+                "imgSrc": "../images/niño-stitch.jpg",
+                "precio": 300
+        },
+        {
+                "id": "M007",
+                "categoria": "Niños Caña",
+                "distincion": "Novia Stitch",
+                "imgSrc": "../images/niño-stitch2.jpg",
+                "precio": 300
+        },
+        {
+                "id": "M008",
+                "categoria": "Niños Soquetes",
+                "distincion": "Novia Stitch",
+                "imgSrc": "../images/niño-stitch3.jpg",
+                "precio": 300
+        },
+        {
+                "id": "M009",
+                "categoria": "Niños Soquetes",
+                "distincion": "Stitch",
+                "imgSrc": "../images/niño-stitch4.jpg",
+                "precio": 300
+        },
+        {
+                "id": "M010",
+                "categoria": "Caña",
+                "distincion": "Alienigena",
+                "imgSrc": "../images/caña-alienigena.jpg",
+                "precio": 600
+        },
+        {
+                "id": "M011",
+                "categoria": "Caña",
+                "distincion": "Blanco Arcoiris",
+                "imgSrc": "../images/caña-blanco.jpg",
+                "precio": 600
+        },
+        {
+                "id": "M012",
+                "categoria": "Caña",
+                "distincion": "Negro Arcoiris",
+                "imgSrc": "../images/caña-negro.jpg",
+                "precio": 600
+        },
+        {
+                "id": "M013",
+                "categoria": "Caña",
+                "distincion": "Smile BLack",
+                "imgSrc": "../images/caña-smile.jpg",
+                "precio": 600
+        },
+        {
+                "id": "M014",
+                "categoria": "Caña",
+                "distincion": "Sonrisa",
+                "imgSrc": "../images/caña-sonrisa.jpg",
+                "precio": 600
+        },
+        {
+                "id": "M015",
+                "categoria": "Caña",
+                "distincion": "Vans",
+                "imgSrc": "../images/caña-vans.jpg",
+                "precio": 600
+        },
+        {
+                "id": "M016",
+                "categoria": "Caña",
+                "distincion": "Triple Linea",
+                "imgSrc": "../images/caña-verde.jpg",
+                "precio": 600
+        },
+        {
+                "id": "M017",
+                "categoria": "Caña Premium",
+                "distincion": "Bilardo",
+                "imgSrc": "../images/caña-premium-bilardo.jpg",
+                "precio": 800
+        },
+        {
+                "id": "M018",
+                "categoria": "Caña Premium",
+                "distincion": "Boca",
+                "imgSrc": "../images/caña-premium-boca.jpg",
+                "precio": 800
+        },
+        {
+                "id": "M019",
+                "categoria": "Caña Premium",
+                "distincion": "Cars",
+                "imgSrc": "./images/caña-premium-cars.jpg",
+                "precio": 800
+        },
+        {
+                "id": "M020",
+                "categoria": "Caña Premium",
+                "distincion": "Scooby Doo",
+                "imgSrc": "../images/caña-premium-scooby-doo.jpg",
+                "precio": 800
+        },
+        {
+                "id": "M021",
+                "categoria": "Caña Premium",
+                "distincion": "Harry Potter",
+                "imgSrc": "./images/caña-premium-harry.jpg",
+                "precio": 800
+        },
+        {
+                "id": "M022",
+                "categoria": "Caña Premium",
+                "distincion": "Monster Inc.",
+                "imgSrc": "../images/caña-premium-monster.jpg",
+                "precio": 800
+        },
+        {
+                "id": "M023",
+                "categoria": "Caña Premium",
+                "distincion": "Igor",
+                "imgSrc": "./images/caña-premium-winnie.jpg",
+                "precio": 800
+        },
+        {
+                "id": "M024",
+                "categoria": "Caña Premium",
+                "distincion": "Yoda",
+                "imgSrc": "./images/caña-premium-yoda.jpg",
+                "precio": 800
+        },
+        {
+                "id": "M025",
+                "categoria": "Soquetes",
+                "distincion": "Buzz Lightyear",
+                "imgSrc": "./images/soquete-buzz.jpg",
+                "precio": 500
+        },
+        {
+                "id": "M026",
+                "categoria": "Soquetes",
+                "distincion": "Coca-Cola",
+                "imgSrc": "./images/soquete-coca.jpg",
+                "precio": 500
+        },
+        {
+                "id": "M027",
+                "categoria": "Soquetes",
+                "distincion": "Fanta",
+                "imgSrc": "./images/soquete-fanta.jpg",
+                "precio": 500
+        },
+        {
+                "id": "M028",
+                "categoria": "Soquetes",
+                "distincion": "Mariposa",
+                "imgSrc": "../images/soquete-mariposa.jpg",
+                "precio": 500
+        },
+        {
+                "id": "M029",
+                "categoria": "Soquetes",
+                "distincion": "Nubes",
+                "imgSrc": "./images/soquete-nube.jpg",
+                "precio": 500
+        },
+        {
+                "id": "M030",
+                "categoria": "Soquetes",
+                "distincion": "Oreos",
+                "imgSrc": "../images/soquete-oreo.jpg",
+                "precio": 500
+        },
+        {
+                "id": "M031",
+                "categoria": "Soquetes",
+                "distincion": "Simpsons",
+                "imgSrc": "../images/soquete-simpsons.jpg",
+                "precio": 500
+        },
+        {
+                "id": "M032",
+                "categoria": "Soquetes",
+                "distincion": "Sonrisa",
+                "imgSrc": "../images/soquete-sonrisa.jpg",
+                "precio": 500
+        },
+        {
+                "id": "M033",
+                "categoria": "Soquetes",
+                "distincion": "Spider-Man",
+                "imgSrc": "./images/soquete-spider.jpg",
+                "precio": 500
+        },
+        {
+                "id": "M034",
+                "categoria": "Soquetes",
+                "distincion": "Star Wars",
+                "imgSrc": "./images/soquete-star.jpg",
+                "precio": 500
+        },
+        {
+                "id": "M035",
+                "categoria": "Soquetes",
+                "distincion": "Star Wars-Coffee",
+                "imgSrc": "../images/soquete-star2.jpg",
+                "precio": 500
+        },
+        {
+                "id": "M036",
+                "categoria": "Soquetes",
+                "distincion": "Star Wars-Dark Vader",
+                "imgSrc": "../images/soquete-star3.jpg",
+                "precio": 500
+        },
+        {
+                "id": "M037",
+                "categoria": "Soquetes",
+                "distincion": "Stranger Things-Green",
+                "imgSrc": "../images/soquete-stranger.jpg",
+                "precio": 500
+        },
+        {
+                "id": "M038",
+                "categoria": "Soquetes",
+                "distincion": "Stranger Things-White",
+                "imgSrc": "../images/soquete-stranger2.jpg",
+                "precio": 500
+        },
+        {
+                "id": "M039",
+                "categoria": "Soquetes Premium",
+                "distincion": "Capitan America",
+                "imgSrc": "../images/soquete-premium-america.jpg",
+                "precio": 600
+        },
+        {
+                "id": "M040",
+                "categoria": "Soquetes Premium",
+                "distincion": "Broccoli",
+                "imgSrc": "../images/soquete-premium-broccoli.jpg",
+                "precio": 600
+        },
+        {
+                "id": "M041",
+                "categoria": "Soquetes Premium",
+                "distincion": "Friends",
+                "imgSrc": "../images/soquete-premium-friends.jpg",
+                "precio": 600
+        },
+        {
+                "id": "M042",
+                "categoria": "Soquetes Premium",
+                "distincion": "Mickey Mouse",
+                "imgSrc": "../images/soquete-premium-mickey.jpg",
+                "precio": 600
+        },
+        {
+                "id": "M043",
+                "categoria": "Soquetes Premium",
+                "distincion": "Thor",
+                "imgSrc": "./images/soquete-premium-Thor.jpg",
+                "precio": 600
+        },
+        {
+                "id": "M044",
+                "categoria": "Deportivas",
+                "distincion": "Adidas-Pink",
+                "imgSrc": "../images/deportiva1.jpg",
+                "precio": 700
+        },
+        {
+                "id": "M045",
+                "categoria": "Deportivas",
+                "distincion": "Adidas-Red",
+                "imgSrc": "../images/deportiva2.jpg",
+                "precio": 700
+        },
+        {
+                "id": "M046",
+                "categoria": "Deportivas",
+                "distincion": "Adidas-Black and Red",
+                "imgSrc": "../images/deportiva3.jpg",
+                "precio": 700
+        },
+        {
+                "id": "M047",
+                "categoria": "Deportivas",
+                "distincion": "Vans",
+                "imgSrc": "./images/deportiva4.jpg",
+                "precio": 700
+        },
+        {
+                "id": "M048",
+                "categoria": "Deportivas",
+                "distincion": "Adidas-Black",
+                "imgSrc": "../images/deportiva5.jpg",
+                "precio": 700
+        },
+        {
+                "id": "M049",
+                "categoria": "Deportivas",
+                "distincion": "Nike-Stars",
+                "imgSrc": "./images/deportiva6.jpg",
+                "precio": 700
+        },
+        {
+                "id": "M050",
+                "categoria": "Deportivas",
+                "distincion": "Puma",
+                "imgSrc": "../images/deportiva7.jpg",
+                "precio": 700
+        }
+]

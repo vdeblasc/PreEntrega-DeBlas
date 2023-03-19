@@ -10,10 +10,12 @@
     margin-top: 12px;
     margin-bottom: 12px;
 }
+
 .presentacion div {
     padding-top: 20px;
     margin-top: 20px;
-    }
+}
+
 .presentacion div h1 {
     color: white;
     display: flex;
@@ -55,6 +57,15 @@ h6#card_id {
     font-size: 5px;
 }
 
+div.buscador {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    font-weight: bold;
+    margin: 30px;
+}
+
 div.productos {
     display: flex;
     justify-content: center;
@@ -86,7 +97,7 @@ div.card:hover {
 
 }
 
-div.card::before{
+div.card::before {
     content: "";
     position: absolute;
     z-index: -1;
@@ -101,23 +112,23 @@ div.card::before{
     transition: transform 0.15s ease-out;
 }
 
-div.card:hover::before{
+div.card:hover::before {
     transform: scale(2.15);
 }
 
 
 .categoria {
-        color: black;
-        padding: 0.2rem 0.5rem;
-        font-size: 16px;
-        border-radius: 4px;
-    }
+    color: black;
+    padding: 0.2rem 0.5rem;
+    font-size: 16px;
+    border-radius: 4px;
+}
 
-.nombre{
+.nombre {
     font-size: 35px;
 }
 
-.card_precio{
+.card_precio {
     font-weight: bold;
     font-size: 25px;
     color: rgb(89, 21, 125);
@@ -331,12 +342,13 @@ p.id_producto {
     color: rgb(0, 0, 0);
 }
 
-.gracias{
+.gracias {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.ninguna{
+
+.ninguna {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -354,5 +366,76 @@ a.volver_a_la_tienda {
 }
 
 a.volver_a_la_tienda:hover {
-    color: rgb(0, 0, 0) ;
+    color: rgb(0, 0, 0);
+}
+
+footer {
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #111;
+    height: auto;
+    width: 100%;
+    padding-top: 20px;
+    color: #fff;
+}
+
+.footerContent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footerContent h3 {
+    font-size: 2.1rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+
+.footerContent p {
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 30px;
+    font-size: 15px;
+    color: #cacdd2;
+}
+
+.footer-bottom {
+    background: #000;
+    width: 100%;
+    padding: 10px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.footer-bottom p {
+    float: left;
+    font-size: 14px;
+    word-spacing: 1.5px;
+    text-transform: capitalize;
+}
+
+.footer-bottom p a {
+    color: #44bae8;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+
+.footer-bottom span {
+    text-transform: uppercase;
+    opacity: 0.4;
+    font-weight: 200;
+}
+
+.footerRedes {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footerRedes img {
+    width: 60px;
+    height: 60px;
 }
