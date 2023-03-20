@@ -1,5 +1,5 @@
 async function getProductos() {
-    const response = await fetch("data/productos.json")
+    const response = await fetch("data/productos.json");
     const data = await response.json();
     return data;
 }
@@ -18,7 +18,7 @@ getProductos().then((productos) => {
                 <div class='card_body'>
                     <h4 class='categoria'>${producto.categoria}</h4>
                     <h5 class='nombre'>${producto.distincion}</h5>
-                    <h5 class='card_precio'>${producto.precio}$</h5>
+                    <h5 class='card_precio'>$${producto.precio}</h5>
                     <h6 id='card_id'>${producto.id}</h6>
                     <button class='btn_agregar_carrito'>AGREGAR AL CARRITO</button>
                 </div>
@@ -74,8 +74,6 @@ getProductos().then((productos) => {
             const precio = parseInt(producto.precio);
             const cantidad = parseInt(producto.cantidad);
             total_a_pagar += precio * cantidad;
-
-
         });
         valor_total.innerHTML = `$${total_a_pagar}`;
         sessionStorage.setItem("carrito", JSON.stringify(carrito));
@@ -133,13 +131,13 @@ getProductos().then((productos) => {
         for (let producto of carrito) {
             let fila = document.createElement("tr");
             fila.innerHTML = `<td><img src="${producto.img}" width="80px">
-                        <p class="id_producto">${producto.idProducto}</p></td>
-                        <td><p class="categoria_producto">${producto.categorias}</p></td>
-                        <td><p class="nombre_producto">${producto.distincion}</p></td>
-                        <td>
-                        <input type="number" min="1" class="input_unidades" value=${producto.cantidad}></td>
-                        <td class="prod_carrito_precio">${producto.precio}</td>
-                        <button class="btn btn-danger button btn_borrar_elemento">ELIMINAR</button>`;
+            <p class="id_producto">${producto.idProducto}</p></td>
+            <td class="td_categoria_producto"><p class="categoria_producto">${producto.categoria}</p></td>
+            <td class="td_nombre_producto"><p class="nombre_producto">${producto.distincion}</p></td>
+            <td class="td_input_unidades">
+            <input type="number" min="1" class="input_unidades" value=${producto.cantidad}></td>
+            <td class="prod_carrito_precio">${producto.precio}</td>
+            <button class="btn btn-danger button btn_borrar_elemento">ELIMINAR</button>`;
 
             tabla.append(fila);
             carrito_total();
@@ -204,28 +202,38 @@ getProductos().then((productos) => {
         let total_a_pagar = document.getElementById('carrito_precio_total').textContent.replace("$", "");
 
         if (total_a_pagar > 0) {
+            carrito = []
+            window.sessionStorage.clear()
+            render_carrito();
+            Swal.fire({
+                imageUrl: "./images/gracias_compra.png",
+                imageWidth: "300px",
+                confirmButtonText: 'Continuar',
+                showClass: {
+                    popup: 'animate__animated animate__backInLeft'
+                },
+                hideClass: {
+                    popup: 'animate__animated animate__backOutRight'
+                }
+            })
 
-
-            document.body.innerHTML =
-                `<div class="gracias">
-            <h1 >¡GRACIAS POR SU COMPRA!</h1>
-            </div>
-            <div class="volver">
-            <a href="index.html" class= "volver_a_la_tienda">ATRAS</a>
-            </div>`}
-        else {
-
-
-            document.body.innerHTML =
-                `<div class="ninguna">
-            <h1>¡NO HA REALIZADO NINGUNA COMPRA!</h1>
-            </div>
-            <div class="volver">
-            <a href="index.html" class= "volver_a_la_tienda">ATRAS</a>
-            </div>`
 
         }
+        else {
 
-        ;
+            Swal.fire({
+                text: 'No ha echo ninguna compra',
+                Size: "300px",
+                confirmButtonText: 'Continuar',
+                showClass: {
+                    popup: 'animate__animated animate__backInLeft'
+                },
+                hideClass: {
+                    popup: 'animate__animated animate__backOutRight'
+                }
+            })
+
+        }
     });
-})
+}
+)
