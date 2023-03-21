@@ -129,7 +129,7 @@
                 "id": "M019",
                 "categoria": "Caña Premium",
                 "distincion": "Cars",
-                "imgSrc": "./images/caña-premium-cars.jpg",
+                "imgSrc": "../images/caña-premium-cars.jpg",
                 "precio": 800
         },
         {
@@ -143,7 +143,7 @@
                 "id": "M021",
                 "categoria": "Caña Premium",
                 "distincion": "Harry Potter",
-                "imgSrc": "./images/caña-premium-harry.jpg",
+                "imgSrc": "../images/caña-premium-harry.jpg",
                 "precio": 800
         },
         {
@@ -157,35 +157,35 @@
                 "id": "M023",
                 "categoria": "Caña Premium",
                 "distincion": "Igor",
-                "imgSrc": "./images/caña-premium-winnie.jpg",
+                "imgSrc": "../images/caña-premium-winnie.jpg",
                 "precio": 800
         },
         {
                 "id": "M024",
                 "categoria": "Caña Premium",
                 "distincion": "Yoda",
-                "imgSrc": "./images/caña-premium-yoda.jpg",
+                "imgSrc": "../images/caña-premium-yoda.jpg",
                 "precio": 800
         },
         {
                 "id": "M025",
                 "categoria": "Soquetes",
                 "distincion": "Buzz Lightyear",
-                "imgSrc": "./images/soquete-buzz.jpg",
+                "imgSrc": "../images/soquete-buzz.jpg",
                 "precio": 500
         },
         {
                 "id": "M026",
                 "categoria": "Soquetes",
                 "distincion": "Coca-Cola",
-                "imgSrc": "./images/soquete-coca.jpg",
+                "imgSrc": "../images/soquete-coca.jpg",
                 "precio": 500
         },
         {
                 "id": "M027",
                 "categoria": "Soquetes",
                 "distincion": "Fanta",
-                "imgSrc": "./images/soquete-fanta.jpg",
+                "imgSrc": "../images/soquete-fanta.jpg",
                 "precio": 500
         },
         {
@@ -199,7 +199,7 @@
                 "id": "M029",
                 "categoria": "Soquetes",
                 "distincion": "Nubes",
-                "imgSrc": "./images/soquete-nube.jpg",
+                "imgSrc": "../images/soquete-nube.jpg",
                 "precio": 500
         },
         {
@@ -227,14 +227,14 @@
                 "id": "M033",
                 "categoria": "Soquetes",
                 "distincion": "Spider-Man",
-                "imgSrc": "./images/soquete-spider.jpg",
+                "imgSrc": "../images/soquete-spider.jpg",
                 "precio": 500
         },
         {
                 "id": "M034",
                 "categoria": "Soquetes",
                 "distincion": "Star Wars",
-                "imgSrc": "./images/soquete-star.jpg",
+                "imgSrc": "../images/soquete-star.jpg",
                 "precio": 500
         },
         {
@@ -297,7 +297,7 @@
                 "id": "M043",
                 "categoria": "Soquetes Premium",
                 "distincion": "Thor",
-                "imgSrc": "./images/soquete-premium-Thor.jpg",
+                "imgSrc": "../images/soquete-premium-Thor.jpg",
                 "precio": 600
         },
         {
@@ -325,7 +325,7 @@
                 "id": "M047",
                 "categoria": "Deportivas",
                 "distincion": "Vans",
-                "imgSrc": "./images/deportiva4.jpg",
+                "imgSrc": "../images/deportiva4.jpg",
                 "precio": 700
         },
         {
@@ -339,7 +339,7 @@
                 "id": "M049",
                 "categoria": "Deportivas",
                 "distincion": "Nike-Stars",
-                "imgSrc": "./images/deportiva6.jpg",
+                "imgSrc": "../images/deportiva6.jpg",
                 "precio": 700
         },
         {
