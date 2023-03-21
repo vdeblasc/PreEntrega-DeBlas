@@ -71,7 +71,7 @@ getProductos().then((productos) => {
 
         let total_a_pagar = 0;
         carrito.forEach((producto) => {
-            const precio = parseInt(producto.precio);
+            const precio = parseInt(producto.precioProducto);
             const cantidad = parseInt(producto.cantidad);
             total_a_pagar += precio * cantidad;
         });
@@ -132,8 +132,8 @@ getProductos().then((productos) => {
             let fila = document.createElement("tr");
             fila.innerHTML = `<td><img src="${producto.img}" width="80px">
             <p class="id_producto">${producto.idProducto}</p></td>
-            <td class="td_categoria_producto"><p class="categoria_producto">${producto.categoria}</p></td>
-            <td class="td_nombre_producto"><p class="nombre_producto">${producto.distincion}</p></td>
+            <td class="td_categoria_producto"><p class="categoria_producto">${producto.categoriaProducto}</p></td>
+            <td class="td_nombre_producto"><p class="nombre_producto">${producto.distincionProducto}</p></td>
             <td class="td_input_unidades">
             <input type="number" min="1" class="input_unidades" value=${producto.cantidad}></td>
             <td class="prod_carrito_precio">${producto.precio}</td>
